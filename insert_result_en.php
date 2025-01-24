@@ -1,7 +1,5 @@
 <?php
    $con=mysqli_connect("dbsrv.idcseoul.internal", "user1", "qwe123", "sqlDB") or die("MySQL 접속 실패 !!");
-<?php
-$con = mysqli_connect("localhost", "user1", "p@ssw0rd", "sqlDB") or die("MySQL 접속 실패 !!");
 mysqli_set_charset($con, "utf8mb4");
 
 $userID = $_POST["userID"];
