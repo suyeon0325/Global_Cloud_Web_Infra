@@ -1,5 +1,5 @@
 <?php
-$conn = new mysqli("dbsrv.idcseoul.internal", "user1", "qwe123", "sqlDB");
+$conn = new mysqli("dbsrv.idcsingapore.internal", "user1", "qwe123", "sqlDB");
 
 if ($conn->connect_error) {
     die("데이터베이스 연결 실패: " . $conn->connect_error);
