@@ -53,8 +53,8 @@
             <input type="text" name="userID" placeholder="아이디">
             <input type="text" name="name" placeholder="이름">
             <input type="text" name="birthYear" placeholder="생년월일">
-            <input type="text" name="addr" placeholder="이메일주소">
-            <input type="text" name="mobile1" placeholder="휴대전화번호">
+            <input type="text" name="email" placeholder="이메일주소">
+            <input type="text" name="mobile" placeholder="휴대전화번호">
             <div class="button-group">
                 <input type="submit" value="회원 입력">
             </div>
